@@ -1,0 +1,30 @@
+body {
+    background-color: #9F8170;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #EFDECD;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.flex-nav a {
+    background-color: #DAC8AE;
+    color: #5C4033;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .flex-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
