@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9F8170;
+    color: #5C4033;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    color:#EFDECD;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    color: #DAC8AE;
+    font-size: 1.2rem;
+}
+
+.sandbox-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #EFDECD;
+    border: 2px solid #DAC8AE;
+    border-radius: 12px;
+    padding: 2.5rem;
+    text-align: center;
+    min-height: 400px;
+}
+
+.card h2 {
+    margin-bottom: 1rem;
+    color: #5C4033;
+}
+
+.card p {
+    margin-bottom: 2rem;
+    color: #5C4033;
+    font-size: 18px;
+}
+
+.hover-box {
+    width: 180px;
+    height: 180px;
+    background-color: #DAC8AE;
+    color: #5C4033;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0 auto;
+
+    transition: 0.3s;
+}
+
+.hover-box:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 12px 20px rgba(92, 64, 51, 0.3);
+}
+.animation-box {
+    width: 180px;
+    height: 180px;
+    background-color: #DAC8AE;
+    color: #5C4033;
+    border: 5px solid #9F8170;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    margin: 0 auto;
+
+    animation: rotateBox 3s infinite;
+}
+
+@keyframes rotateBox {
+
+    0% {
+        transform: rotate(0deg);
+        border-color: #9F8170;
+    }
+
+    50% {
+        transform: rotate(180deg);
+        border-color: #5C4033;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        border-color: #DAC8AE;
+    }
+}
+#slideshowImage {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #DAC8AE;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button {
+    background-color: #DAC8AE;
+    color: #5C4033;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #9F8170;
+    color: white;
+}
