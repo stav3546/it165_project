@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Stav Moshe Portfolio" />
+    <meta name="author" content="Stav Moshe" />
+    <title>Stav Moshe Portfolio</title>
+
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="styles.css" rel="stylesheet" />
+
+    <style>
+        .bg-primary { background-color: #9F8170 !important; }
+        .bg-secondary { background-color: #5C4033 !important; }
+        .text-secondary { color: #5C4033 !important; }
+
+        .btn-primary {
+            background-color: #5C4033 !important;
+            border-color: #5C4033 !important;
+            color: white !important;
+        }
+
+        .btn-primary:hover {
+            background-color: #9F8170 !important;
+            border-color: #9F8170 !important;
+        }
+
+        #mainNav .navbar-nav .nav-link {
+            color: white !important;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        #mainNav .navbar-nav .nav-link:hover {
+            background-color: #DAC8AE !important;
+            color: #5C4033 !important;
+        }
+
+        #mainNav .navbar-nav .nav-link.active,
+        #mainNav .navbar-nav .nav-link:focus {
+            background-color: #9F8170 !important;
+            color: white !important;
+        }
+
+        .divider-custom .divider-custom-line { background-color: #5C4033; }
+        .divider-custom .divider-custom-icon { color: #5C4033; }
+
+        .divider-custom.divider-light .divider-custom-line { background-color: white; }
+        .divider-custom.divider-light .divider-custom-icon { color: white; }
+
+        .portfolio-image {
+            max-width: 480px;
+            width: 100%;
+            border-radius: 15px;
+            margin-bottom: 25px;
+        }
+
+        .project-image {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body id="page-top">
+
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Stav Moshe Portfolio</a>
+
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+
+            <img class="portfolio-image" src="Week_4_Image.png" alt="Stav Moshe Portfolio" />
+
+            <h1 class="masthead-heading text-uppercase mb-0">Stav Moshe</h1>
+
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <p class="masthead-subheading font-weight-light mb-0">
+                Information Systems Student - Technology & Web Development
+            </p>
+        </div>
+    </header>
+
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <img class="project-image" src="image1.jpg" alt="HTML Project" />
+                    <h4 class="text-center mt-3">HTML Portfolio</h4>
+                    <p class="text-center">A personal website created with HTML structure.</p>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <img class="project-image" src="image2.jpg" alt="CSS Project" />
+                    <h4 class="text-center mt-3">Responsive CSS</h4>
+                    <p class="text-center">A responsive design using CSS, Flexbox, and Grid.</p>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <img class="project-image" src="image3.jpg" alt="JavaScript Project" />
+                    <h4 class="text-center mt-3">JavaScript Practice</h4>
+                    <p class="text-center">JavaScript examples using events and DOM changes.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section bg-primary text-white mb-0" id="about">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-white">About Me</h2>
+
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 ms-auto">
+                    <p class="lead">
+                        Hi, my name is Stav Moshe and I am from Israel. I am currently studying Information Systems at Monroe College as part of a student exchange program.
+                    </p>
+                </div>
+
+                <div class="col-lg-4 me-auto">
+                    <p class="lead">
+                        I study Information Systems because I enjoy technology, learning new tools, and improving my skills in web development.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section" id="contact">
+        <div class="container">
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" placeholder="Enter your name..." required />
+                            <label for="name">Full name</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email" placeholder="name@example.com" required />
+                            <label for="email">Email address</label>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+
+                        <button class="btn btn-primary btn-xl" type="submit">Send</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer text-center bg-secondary">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p class="lead mb-0">Israel</p>
+                </div>
+
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Email</h4>
+                    <p class="lead mb-0">stav@test.com</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">About This Site</h4>
+                    <p class="lead mb-0">
+                        This portfolio was updated using a Bootstrap template.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright &copy; Stav Moshe 2026</small></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+
+</body>
+</html>
